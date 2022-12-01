@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/cadastrar.css" />
+    <title>Menu</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        @media(max-width: 700px) {
+            .login {
+                height: auto;
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Alterar foto de perfil</h1>
+        <img src="" alt="" srcset="" id="img">
+        <input type="file" id="file" placeholder="imagem" style="color: #87848a"
+            title="Selecionar Foto Perfil"></br></br></br>
+        <button class="btnEntrar" id="btnALterar" style="cursor: pointer;">alterar</button></br></br>
+
+
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-storage.js"></script>
+
+    <script src="../js/firebase.js"></script>
+    <script src="../js/alterarImagem.js"></script>
+
+</body>
+
+</html>

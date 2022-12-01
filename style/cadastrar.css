@@ -1,0 +1,107 @@
+body {
+    background-color: #DABCF9;
+}
+
+.login {
+    /*Coloca a sombra no Fundo*/
+    box-shadow: 0px 20px 600px 0px rgba(164, 92, 156, 0.7);
+    font-family: sans-serif;
+    text-align: center;
+    height: 70%;
+    width: 27%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+    border-style: solid;
+    padding-bottom: 90px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px;
+    border-radius: 9px;
+    outline: none;
+    font-size: 15px;
+    background-color: #F0F0F0;
+}
+
+.botaoGoogle {
+    border: solid 1px;
+    border-color: #341A4E;
+    padding: 6px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #341A4E;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.botaoGoogle:hover {
+    transition: all 0.5s;
+    background-color: #e0cbf5;
+}
+
+h1 {
+    color: #341A4E;
+    font-size: 25px;
+}
+
+h3 {
+    color: #4f1f69;
+    font-size: 13px;
+}
+
+a {
+    font-size: 5px;
+}
+
+.btnEntrar {
+    text-align: center;
+    border: none;
+    padding: 10px;
+    /*width: 210px;*/
+    width: 70%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #A069C1;
+}
+
+.btnEntrar:hover {
+    transition: all 0.5s;
+    background-color: #4f1f69;
+}
+
+p {
+    color: #A069C1;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: center;
+
+}
+
+fieldset {
+    border-top: 1px solid #341A4E;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+}
+
+fieldset legend {
+    color: #341A4E;
+    padding: 5px 10px;
+}

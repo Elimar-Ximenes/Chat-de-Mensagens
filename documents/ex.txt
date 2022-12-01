@@ -1,0 +1,41 @@
+   if (
+        (element.val().emissor == usuario &&
+          element.val().destinatario == destinatario) ||
+        (element.val().emissor == destinatario &&
+          element.val().destinatario == usuario)
+      ) {
+        password = element.val().senha;
+        
+        if (element.val().emissor == usuario) {
+          criaMsg("message my_msg", element.val().message);
+          
+        } else if (element.val().emissor == destinatario) {
+          criaMsg("message friend_msg", element.val().message);
+        } else if (element.val().destinatario == usuario) {
+          criaMsg("message my_msg", element.val().message);
+        } else if (element.val().destinatario == destinatario) {
+          criaMsg("message friend_msg", element.val().message);
+        }
+        
+      }
+
+
+
+          const dbRef = firebase.database().ref("conversas");
+    dbRefUsers.child('individual')
+  .orderByChild('data') // Ordena as tarefas pelo nome da tarefa
+  .on('value', function (dataSnapshot) {
+    dataSnapshot.forEach(element => {
+      if (
+        (element.val().emissor == usuario &&
+          element.val().destinatario == destinatario) ||
+        (element.val().emissor == destinatario &&
+          element.val().destinatario == usuario)
+      ) {
+        
+        
+      }
+    });
+  })
+
+  

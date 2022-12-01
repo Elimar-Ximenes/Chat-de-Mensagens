@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/procurarUsuario.css">
+    <title>Document</title>
+    <style>
+        @media(max-width: 700px) {
+            .card {
+                height: auto;
+                width: 60%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div>
+            <h1 style="color: #341A4E;">Digite o Email do Usuario:</h1></br>
+            <input type="email" placeholder="Email" id="entradaEmail">
+        </div>
+        </br>
+        <a type="button" class="btnProcurar" id="btn">Procurar</a></br></br>
+        </br>
+        <div>
+            <a style="color: black" id="divMostrarUser" href="../index.html">
+            </a>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-storage.js"></script>
+        <script src="../js/firebase.js"></script>
+        <script src="../js/procurarUsuario.js"></script>
+    </div>
+</body>
+
+</html>
